@@ -14,7 +14,7 @@ var AUTOPREFIXER_BROWSERS = [
   'bb >= 10'
 ];
 
-var site_proxy_address = 'http://www.mlobit.dev:8080'; // change this to match your host
+var site_proxy_address = 'http://www.example.com'; // change this to match your host
 
 gulp.task('images', function() {
   return gulp.src(['../../../../uploads/**/*.{png,PNG,jpg,JPG,jpeg,JPEG,gif,GIF}'], {
